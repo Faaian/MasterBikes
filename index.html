@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>MasterBikes - Inicio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bienvenido a MasterBikes, tu tienda y servicio de bicicletas en Ciudad Ciclista.">
+    <meta name="keywords" content="bicicletas, reparación de bicicletas, accesorios para bicicletas">
+    <link rel="icon" href="img/favicon.ico">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Estilos personalizados -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Barra superior -->
+    <div class="container-fluid bg-dark text-white py-2">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-auto">
+                    <i class="fas fa-map-marker-alt"></i> Calle Bicicleta 123, Ciudad Ciclista, Chile
+                </div>
+                <div class="col-auto">
+                    <i class="far fa-clock"></i> Lun - Vie : 09.00 AM - 07.00 PM, Sáb : 09.00 AM - 12.00 PM
+                </div>
+                <div class="col-auto">
+                    <i class="fas fa-phone-alt"></i> +569 9876 5432
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" alt="MasterBikes" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="service.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cabecera con imagen de fondo -->
+    <header class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1 class="display-4">Bienvenido a MasterBikes</h1>
+                    <p class="lead">Tu tienda de bicicletas y centro de servicio de confianza.</p>
+                    <a href="service.html" class="btn btn-primary btn-lg">Explora nuestros servicios</a>
+                </div>
+                <div class="col-md-6 d-none d-md-block">
+                    <img src="img/header-image.jpg" alt="Bicicletas" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sección de presentación -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Nuestra Historia</h2>
+                    <p class="lead">Desde nuestros inicios en 2005, en MasterBikes nos hemos dedicado a ofrecer servicios de calidad para ciclistas entusiastas y profesionales.</p>
+                    <p>Con un equipo de técnicos especializados y un compromiso con la satisfacción del cliente, nos hemos convertido en un referente en Ciudad Ciclista. <strong>Descubre por qué miles de clientes confían en nosotros para sus bicicletas.</strong></p>
+                    <a href="nosotros.html" class="btn btn-outline-primary">Sobre Nosotros</a>
+                </div>
+                <div class="col-lg-6">
+                    <h2>Nuestros Valores</h2>
+                    <p>En MasterBikes, creemos en la pasión por las bicicletas y en proporcionar soluciones efectivas para cualquier necesidad de nuestros clientes. Nuestros valores incluyen:</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle text-primary"></i> Compromiso con la calidad y la excelencia.</li>
+                        <li><i class="fas fa-check-circle text-primary"></i> Atención personalizada y servicio al cliente excepcional.</li>
+                        <li><i class="fas fa-check-circle text-primary"></i> Innovación constante en reparaciones y productos.</li>
+                        <li><i class="fas fa-check-circle text-primary"></i> Ética profesional y respeto por el medio ambiente.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de testimonios -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h2 class="mb-4">Lo que dicen nuestros clientes</h2>
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <blockquote class="blockquote">
+                                    <p class="mb-0">"Excelente servicio y atención al cliente. Mi bicicleta quedó como nueva después de llevarla a MasterBikes."</p>
+                                    <footer class="blockquote-footer">Juan Pérez</footer>
+                                </blockquote>
+                            </div>
+                            <div class="carousel-item">
+                                <blockquote class="blockquote">
+                                    <p class="mb-0">"Grandes profesionales. Siempre encuentro lo que necesito para mi bicicleta en su tienda."</p>
+                                    <footer class="blockquote-footer">María Rodríguez</footer>
+                                </blockquote>
+                            </div>
+                            <div class="carousel-item">
+                                <blockquote class="blockquote">
+                                    <p class="mb-0">"Recomiendo totalmente. Servicio rápido y eficiente. ¡Gracias MasterBikes!"</p>
+                                    <footer class="blockquote-footer">Pedro Gómez</footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0 text-center text-lg-start">
+                    <img src="img/logo-footer.png" alt="MasterBikes" height="40">
+                    <p class="text-muted mt-3">Tu tienda de bicicletas y centro de servicio en Ciudad Ciclista.</p>
+                </div>
+                <div class="col-lg-4 mb-4 mb-lg-0 text-center">
+                    <h6 class="text-uppercase mb-3">Enlaces rápidos</h6>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="index.html" class="text-muted">Inicio</a></li>
+                        <li><a href="nosotros.html" class="text-muted">Nosotros</a></li>
+                        <li><a href="service.html" class="text-muted">Servicios</a></li>
+                        <li><a href="productos.html" class="text-muted">Productos</a></li>
+                        <li><a href="contacto.html" class="text-muted">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 text-center text-lg-end">
+                    <h6 class="text-uppercase mb-3">Contáctanos</h6>
+                    <ul class="list-unstyled mb-0">
+                        <li><i class="fas fa-map-marker-alt text-primary"></i> Calle Bicicleta 123, Ciudad Ciclista, Chile</li>
+                        <li><i class="fas fa-phone-alt text-primary"></i> +569 9876 5432</li>
+                        <li><i class="fas fa-envelope text-primary"></i> info@masterbikes.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS y Scripts personalizados -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
